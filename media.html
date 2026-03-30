@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Gallery</title>
+    <link rel="stylesheet" href="path/to/lightbox.css"> <!-- Adjust this path -->
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Image Gallery</h1>
+<div class="gallery">
+    <a href="./pic/image1.jpg" data-lightbox="gallery"><img src="./pic/image1_thumb.jpg" alt="Image 1"></a>
+    <a href="./pic/image2.jpg" data-lightbox="gallery"><img src="./pic/image2_thumb.jpg" alt="Image 2"></a>
+    <a href="./pic/image3.jpg" data-lightbox="gallery"><img src="./pic/image3_thumb.jpg" alt="Image 3"></a>
+    <!-- Add more images as needed -->
+</div>
+
+<script src="path/to/lightbox.js"></script> <!-- Adjust this path -->
+</body>
+</html>
